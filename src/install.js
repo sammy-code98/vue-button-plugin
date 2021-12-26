@@ -1,7 +1,7 @@
-import Button from "./components/Button.vue";
+import MyButton from "./components/MyButton.vue";
 export default {
   install(Vue) {
     // register component globally
-    Vue.component("button", Button);
+    Vue.component("my-button", MyButton);
   },
 };

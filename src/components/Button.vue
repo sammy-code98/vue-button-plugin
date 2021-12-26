@@ -48,3 +48,50 @@ export default {
   },
 };
 </script>
+<style>
+.nice-button {
+  display: inline-block;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  user-select: none;
+  cursor: pointer;
+}
+/* colors */
+.nice-button--blue {
+  background-color: #0194ef;
+}
+.nice-button--green {
+  background-color: #1bb934;
+}
+
+.nice-button--red {
+  background-color: #e1112c;
+}
+/* sizes */
+.nice-button--small {
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 12px;
+}
+.nice-button--default {
+  padding: 12px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.nice-button--large {
+  padding: 16px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* booleans */
+.nice-button--rounded {
+  border-radius: 60px;
+}
+</style>

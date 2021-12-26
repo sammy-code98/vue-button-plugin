@@ -1,24 +1,29 @@
-# buttons
+# vue-button-plugin
 
-## Project setup
-```
-npm install
-```
+# To use this plugin
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### install the plugin in your project
 
-### Compiles and minifies for production
 ```
-npm run build
+npm i vue-buttons-plugin
+
 ```
 
-### Lints and fixes files
+### In your main.js, or a similar entry point for your app:
+
 ```
-npm run lint
+import VueButtonsPlugin from "vue-buttons-plugin";
+import Vue from "vue";
+
+Vue.use(VueButtonsPlugin);
+
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### In your vue.js file
+```
+<vue-buttons-plugin :rounded="true" color="red" size="large">My Button</vue-buttons-plugin>
+
+```
+
+
